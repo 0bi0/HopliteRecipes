@@ -3,4 +3,4 @@ version: 1.0
 main: HopliteRecipes.hopliteRecipes.HopliteRecipes
 api-version: 1.21
 author: 0bi0
-description: Adds custom crafting recipes like anvils, obsidian, XP bottles, etc.
+description: Adds some of the custom crafting recipes from Hoplite

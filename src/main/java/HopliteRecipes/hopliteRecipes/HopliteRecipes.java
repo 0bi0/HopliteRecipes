@@ -14,11 +14,11 @@ public class HopliteRecipes extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // 1. Clears vanilla recipes
+        // A. Clears vanilla recipes
         removeVanillaRecipe(Material.ANVIL);
         removeVanillaRecipe(Material.GOLDEN_APPLE);
 
-        // 2. Registers new ones
+        // B. Registers new ones
         registerAnvilRecipe();
         registerXPBottleRecipe();
         registerBundledArrowsRecipe();
@@ -49,7 +49,6 @@ public class HopliteRecipes extends JavaPlugin {
     // 2. XP BOTTLE (Lapis cross, Bottle centre)
     private void registerXPBottleRecipe() {
         NamespacedKey key = new NamespacedKey(this, "xp_bottle");
-        // Result is 8 bottles per the image
         ShapedRecipe recipe = new ShapedRecipe(key, new ItemStack(Material.EXPERIENCE_BOTTLE, 8));
         recipe.shape(" L ", "LBL", " L ");
         recipe.setIngredient('L', Material.LAPIS_BLOCK);
