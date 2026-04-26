@@ -15,4 +15,4 @@ Includes crafting recipes for:
 
 ---
 
-Licensed under the MIT License, meaning that you are free to use this code however you want (don't worry about creds)
+Licensed under the MIT License, meaning that you are free to use this however you want (don't worry about creds)
