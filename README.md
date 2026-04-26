@@ -2,7 +2,7 @@
 
 ---
 
-Simple crafting recipes for Minecraft that use the logic found on Hoplite (hoplite.gg). Very shitty plugin (first ever time trying Java), so don't expect anything noteworthy (or anything that doesn't break itself, to be honest...) Current plugin version is for `1.21.11` only.
+Simple crafting recipes for Minecraft that use the logic found on Hoplite (hoplite.gg). Very shitty plugin (first ever time experimenting with Java), so don't expect anything mind-blowing (or anything that doesn't break itself, to be honest...) Current plugin version is for `1.21.11` only.
 
 ‎ 
 
