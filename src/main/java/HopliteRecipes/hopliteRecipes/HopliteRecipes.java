@@ -17,6 +17,7 @@ public class HopliteRecipes extends JavaPlugin {
         // A. Clears vanilla recipes
         removeVanillaRecipe(Material.ANVIL);
         removeVanillaRecipe(Material.GOLDEN_APPLE);
+        removeVanillaRecipe(Material.SADDLE);
 
         // B. Registers new ones
         registerAnvilRecipe();
@@ -24,6 +25,7 @@ public class HopliteRecipes extends JavaPlugin {
         registerBundledArrowsRecipe();
         registerGoldenAppleRecipe();
         registerObsidianRecipe();
+        registerSaddleRecipe();
     }
 
     private void removeVanillaRecipe(Material material) {
@@ -77,13 +79,24 @@ public class HopliteRecipes extends JavaPlugin {
         Bukkit.addRecipe(recipe);
     }
 
-    // 5. OBSIDIAN (Water Bucket + Lava Bucket)
+    // 5. OBSIDIAN (Water Bucket, Lava Bucket)
     private void registerObsidianRecipe() {
         NamespacedKey key = new NamespacedKey(this, "custom_obsidian");
         ShapedRecipe recipe = new ShapedRecipe(key, new ItemStack(Material.OBSIDIAN));
         recipe.shape("WL ", "   ", "   ");
         recipe.setIngredient('W', Material.WATER_BUCKET);
         recipe.setIngredient('L', Material.LAVA_BUCKET);
+        Bukkit.addRecipe(recipe);
+    }
+
+    // 6. SADDLE (Leather, String, Copper Ingots)
+    private void registerSaddleRecipe() {
+        NamespacedKey key = new NamespacedKey(this, "custom_saddle");
+        ShapedRecipe recipe = new ShapedRecipe(key, new ItemStack(Material.SADDLE));
+        recipe.shape("LLL", "LSL", "C C");
+        recipe.setIngredient('L', Material.LEATHER);
+        recipe.setIngredient('S', Material.STRING);
+        recipe.setIngredient('C', Material.COPPER_INGOT);
         Bukkit.addRecipe(recipe);
     }
 }
