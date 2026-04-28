@@ -26,7 +26,7 @@ Make sure you have [Maven](https://maven.apache.org/install.html) installed and 
 
 ```
 git clone https://github.com/0bi0/HopliteRecipes.git
-cd HopliteRecipes
+cd HopliteRecipes-main
 mvn clean package
 ```
 
