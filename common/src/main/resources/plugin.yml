@@ -1,6 +1,6 @@
 name: HopliteRecipes
 version: 1.0
-main: HopliteRecipes.hopliteRecipes.HopliteRecipes
+main: obio.hopliteRecipes.main
 api-version: 1.21
 author: 0bi0
 description: Adds some of the custom crafting recipes from Hoplite

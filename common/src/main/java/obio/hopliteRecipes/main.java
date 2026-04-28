@@ -1,5 +1,5 @@
 // Package declaration thingy
-package HopliteRecipes.hopliteRecipes;
+package obio.hopliteRecipes;
 
 // Necessary imports
 import org.bukkit.Bukkit;
@@ -10,7 +10,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.plugin.java.JavaPlugin;
 
 // Registers program as Java-compatible plugin
-public class HopliteRecipes extends JavaPlugin {
+public class main extends JavaPlugin {
 
     @Override
     public void onEnable() {
