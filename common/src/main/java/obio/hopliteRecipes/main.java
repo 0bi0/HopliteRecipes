@@ -79,7 +79,7 @@ public class main extends JavaPlugin {
         Bukkit.addRecipe(recipe);
     }
 
-    // 5. OBSIDIAN (Water Bucket, Lava Bucket)
+    // 5. OBSIDIAN (Water Bucket + Lava Bucket)
     private void registerObsidianRecipe() {
         NamespacedKey key = new NamespacedKey(this, "custom_obsidian");
         ShapedRecipe recipe = new ShapedRecipe(key, new ItemStack(Material.OBSIDIAN));
@@ -89,7 +89,7 @@ public class main extends JavaPlugin {
         Bukkit.addRecipe(recipe);
     }
 
-    // 6. SADDLE (Leather, String, Copper Ingots)
+    // 6. SADDLE (Leather top row, String middle, Copper Ingots bottom row)
     private void registerSaddleRecipe() {
         NamespacedKey key = new NamespacedKey(this, "custom_saddle");
         ShapedRecipe recipe = new ShapedRecipe(key, new ItemStack(Material.SADDLE));
