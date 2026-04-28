@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HopliteRecipes.iml" filepath="$PROJECT_DIR$/HopliteRecipes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HopliteRecipes.iml" filepath="$PROJECT_DIR$/.idea/HopliteRecipes.iml" />
     </modules>
   </component>
 </project>
