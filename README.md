@@ -14,6 +14,7 @@ Includes crafting recipes for:
 - Bundled Arrows
 - Golden Apple
 - Obsidian
+- Saddle
 
 
 ---
